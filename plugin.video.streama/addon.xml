@@ -11,7 +11,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Servidor Multimedia.</summary>
-        <description lang="en_GB">TVNETPlay es un Centro de Entretenimiento donde puedes disfrutar totalmente gratis y desde la comodidad de tu hogar de las mejores Películas y Series de TV!
+        <description lang="en_GB">TVNETPlay es un Centro de Entretenimiento donde puedes disfrutar desde la comodidad de tu hogar de las mejores Películas y Series de TV!
         </description>
         <platform>all</platform>
         <license>MIT</license>
@@ -21,9 +21,8 @@
         <news></news>
         <assets>
             <icon>resources/media/icon.png</icon>
-            <fanart>resources/media/fanart.png</fanart>
-            <screenshot>resources/media/screenshot01.png</screenshot>
+            <fanart>resources/media/fanart.jpg</fanart>
+            <screenshot>resources/media/screenshot01.jpg</screenshot>
         </assets>
     </extension>
-	<onclick condition="!System.hasAddon(plugin.video.youtube)">InstallAddon(plugin.video.youtube)</onclick>
 </addon>
